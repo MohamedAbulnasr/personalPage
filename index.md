@@ -286,7 +286,7 @@
 				</div>
 				<div class="col-xs-1"></div>
 				<div class="col-xs-4 form-group">
-					<form method="POST" action="">
+					<form method="GET" action="">
 						<input type="text" name="nm" id="nm" class="form-control input-lg" placeholder="Name" required />
 						<br/>
 						<input type="text" name="mail" class="form-control input-lg" placeholder="Email Address" required />
@@ -295,7 +295,7 @@
 						<br/>
 						<input type="text" name="message" class="form-control input-lg" placeholder="Message" required />
 						<br/>
-						<button type="submit" name="submit" class="form-control input-lg btn btn-primary btn-lg"/><i class='fa fa-paper-plane'></i> Send</button>
+						<button type="click" name="submit" class="form-control input-lg btn btn-primary btn-lg"/><i class='fa fa-paper-plane'></i> Send</button>
 					</form>
 				</div>
 				<div class="col-xs-7">
