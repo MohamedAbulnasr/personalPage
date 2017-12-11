@@ -125,7 +125,7 @@
 			}
 			.chevron1{
 				position: fixed;
-				z-index: 0;
+				z-index:999;
 				z-order:999;
 				-webkit-animation-duration: 3s;
 				-webkit-animation-delay: 1s;
