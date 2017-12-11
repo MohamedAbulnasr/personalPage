@@ -137,7 +137,52 @@
 				-moz-animation-iteration-count: infinite;
 			}
 		</style>
-	</head>
+
+<script>
+			jQuery(function(){
+				$(".chevron1").css({
+					'top':$(window).height()-$(".chevron1").height()-15, 
+					'left':$(window).width()-$(".chevron1").width()-15
+				});
+				$(".chevron1 a").css({
+					'color': 'darkcyan'
+				});
+				$(".chevron1").addClass('class_name')
+
+				$("#mypic1").hover(function() {
+					$("#mypic1").addClass('pulse');
+				}, function() {
+					$("#mypic1").removeClass('pulse');
+				});
+
+				$("#mypic2").hover(function() {
+					$("#mypic2").addClass('tada');
+				}, function() {
+					$("#mypic2").removeClass('tada');
+				});
+
+				$("#mypic3").hover(function() {
+					$("#mypic3").addClass('pulse');
+				}, function() {
+					$("#mypic3").removeClass('pulse');
+				});
+				$("#mypic").hover(function() {
+					$("#mypic").addClass('tada');
+				}, function() {
+					$("#mypic").removeClass('tada');
+				});
+
+				$('a[href^="#"]').click(function() {
+			    event.preventDefault();
+			    $('html').animate({
+			      scrollTop: $(this.hash).offset().top
+			     }, 1000);
+			  });
+
+			});
+</script>
+
+</head>
 	<body>
 		<nav class="navbar navbar-default" id="tops">
 		  <div class="container-fluid">
@@ -277,53 +322,10 @@
 				</div>
 			</div>
 			<footer id="footer" class="bottom-footer text-center">
-				Written and coded by <a href="https://www.freecodecamp.org/mohamedabulnasr" target="_blank">Mohamed Abulnasr 	<img id="forimg" src="https://raw.githubusercontent.com/FutureForObjectiveSystems/Albara3im/master/minlogo2.png" width="56px"
+				Written and coded by <a href="https://www.facebook.com/objectivesystems" target="_blank">Mohamed Abulnasr 	<img id="forimg" src="https://raw.githubusercontent.com/FutureForObjectiveSystems/Albara3im/master/minlogo2.png" width="56px"
             style="border:4px ;vertical-align:middle;"
             /></a> <i class="fa fa-copyright"></i> 2017. All Rights Reserved
 			</footer>
 		</div>
-<script>
-			jQuery(function(){
-				$(".chevron1").css({
-					'top':$(window).height()-$(".chevron1").height()-15, 
-					'left':$(window).width()-$(".chevron1").width()-15
-				});
-				$(".chevron1 a").css({
-					'color': 'darkcyan'
-				});
-				$(".chevron1").addClass('class_name')
-
-				$("#mypic1").hover(function() {
-					$("#mypic1").addClass('pulse');
-				}, function() {
-					$("#mypic1").removeClass('pulse');
-				});
-
-				$("#mypic2").hover(function() {
-					$("#mypic2").addClass('tada');
-				}, function() {
-					$("#mypic2").removeClass('tada');
-				});
-
-				$("#mypic3").hover(function() {
-					$("#mypic3").addClass('pulse');
-				}, function() {
-					$("#mypic3").removeClass('pulse');
-				});
-				$("#mypic").hover(function() {
-					$("#mypic").addClass('tada');
-				}, function() {
-					$("#mypic").removeClass('tada');
-				});
-
-				$('a[href^="#"]').click(function() {
-			    event.preventDefault();
-			    $('html').animate({
-			      scrollTop: $(this.hash).offset().top
-			     }, 1000);
-			  });
-
-			});
-</script>
 	</body>
 </html>
