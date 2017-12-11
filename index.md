@@ -126,6 +126,7 @@
 			.chevron1{
 				position: fixed;
 				z-index: 0;
+				z-order:999;
 				-webkit-animation-duration: 3s;
 				-webkit-animation-delay: 1s;
 				-webkit-animation-iteration-count: infinite;
