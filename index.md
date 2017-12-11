@@ -282,6 +282,7 @@
             /></a> <i class="fa fa-copyright"></i> 2017. All Rights Reserved
 			</footer>
 		</div>
+<script>
 			jQuery(function(){
 				$(".chevron1").css({
 					'top':$(window).height()-$(".chevron1").height()-15, 
@@ -323,6 +324,6 @@
 			  });
 
 			});
-
+</script>
 	</body>
 </html>
